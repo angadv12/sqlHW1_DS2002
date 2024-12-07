@@ -121,6 +121,7 @@ INSERT INTO Orders (CustomerID, BookID, Quantity) VALUES
 (5, 4, 3);
 
 -- Queries on Custom Database
+
 -- 1. Find all customers who purchased 'Book A'
 SELECT c.FirstName, c.LastName 
 FROM Customers c 
